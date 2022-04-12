@@ -1,6 +1,25 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project works with:
+React-App
+Tailwind
+firebase
+
+The requested tasks are divided into the following components:
+times-list
+nav bar
+buttom
+add-time-entry-forms
+
+If you want to change the collation name to test that they are created without any problem, you can access the Firebase/api.js file and modify the collectionName const collectionName = "time";
+
+If you want to test with your own Firebase account, you just need to change the settings in the .env.local file.
+
+before running the project make sure you have the npm packages installed,
+Runs npm install
+
+Runs the app in the development mode.\ with npm start
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Available Scripts
 
